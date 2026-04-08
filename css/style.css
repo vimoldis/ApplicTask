@@ -300,3 +300,22 @@ background: rgba(255,255,255,0.35);
     text-transform: uppercase;
     color: var(--accent);
 }
+
+@media (max-width: 600px) {
+    two-col {
+        grid-template-columns: 1fr;
+    }
+    .comparison { 
+        grid-template-columns: 1fr; 
+    }
+    .moodboard { 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: repeat(3, 140px); 
+    }
+    .thinking-grid { 
+        grid-template-columns: 1fr; 
+    }
+    .page {
+        padding: 32px 24px;
+    }
+}
