@@ -310,7 +310,7 @@ background: rgba(255,255,255,0.35);
     }
     .moodboard { 
         grid-template-columns: 1fr 1fr; 
-        grid-template-rows: repeat(3, 160px); 
+        grid-template-rows: repeat(3, 200px); 
     }
     .thinking-grid { 
         grid-template-columns: 1fr; 
