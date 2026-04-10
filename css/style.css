@@ -288,7 +288,7 @@ background: rgba(255,255,255,0.35);
     color: var(--accent);
     text-decoration: none;
 }
-.footer-contact {
+.footer-contact, .footer-github {
     font-size: 11px;
     margin-left: 25px;
     color: var(--muted);
